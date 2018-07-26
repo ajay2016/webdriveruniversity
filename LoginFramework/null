@@ -1,0 +1,290 @@
+[1532404040.540][INFO]: COMMAND InitSession {
+   "capabilities": {
+      "desiredCapabilities": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      },
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1532404040.544][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1532404040.546][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1532404040.555][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\ajay\AppData\Local\Temp\scoped_dir13828_10766\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\ajay\AppData\Local\Temp\scoped_dir13828_23314" data:,
+[1532404041.527][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1532404042.575][INFO]: RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9)",
+      "userDataDir": "C:\\Users\\ajay\\AppData\\Local\\Temp\\scoped_dir13828_23314"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "setWindowRect": true,
+   "~~~": "..."
+}
+[1532404042.586][INFO]: COMMAND MaximizeWindow {
+   "handle": "current",
+   "windowHandle": "current"
+}
+[1532404042.587][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1532404043.759][INFO]: RESPONSE MaximizeWindow
+[1532404043.764][INFO]: COMMAND SetTimeout {
+   "ms": 20000,
+   "type": "page load"
+}
+[1532404043.764][INFO]: RESPONSE SetTimeout
+[1532404043.783][INFO]: COMMAND SetTimeout {
+   "ms": 20000,
+   "type": "script"
+}
+[1532404043.783][INFO]: RESPONSE SetTimeou[1532404053.957][INFO]: COMMAND DeleteAllCookies {
+
+}
+[1532404053.957][INFO]: Waiting for pending navigations...
+[1532404053.962][INFO]: Done waiting for pending navigations. Status: ok
+[1532404053.967][INFO]: Waiting for pending navigations...
+[1532404053.968][INFO]: Done waiting for pending navigations. Status: ok
+[1532404053.968][INFO]: RESPONSE DeleteAllCookies
+[1532404053.975][INFO]: COMMAND Quit {
+
+}
+[1532404054.065][INFO]: RESPONSE Quit
+using": "id",
+   "value": "login-portal"
+}
+[1532404051.752][INFO]: Waiting for pending navigations...
+[1532404051.762][INFO]: Done waiting for pending navigations. Status: ok
+[1532404051.785][INFO]: Waiting for pending navigations...
+[1532404051.798][INFO]: Done waiting for pending navigations. Status: ok
+[1532404051.798][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.07930855952012483-1"
+}
+[1532404051.803][INFO]: COMMAND ClickElement {
+   "id": "0.07930855952012483-1"
+}
+[1532404051.803][INFO]: Waiting for pending navigations...
+[1532404051.813][INFO]: Done waiting for pending navigations. Status: ok
+[1532404051.949][INFO]: Waiting for pending navigations...
+[1532404052.028][INFO]: Done waiting for pending navigations. Status: ok
+[1532404052.028][INFO]: RESPONSE ClickElement
+[1532404052.033][INFO]: COMMAND GetWindow {
+
+}
+[1532404052.033][INFO]: RESPONSE GetWindow "CDwindow-3A3D5C8381F1DBE1A990BFC7EE8FFBA7"
+[1532404052.039][INFO]: COMMAND GetWindows {
+
+}
+[1532404052.041][INFO]: RESPONSE GetWindows [ "CDwindow-3A3D5C8381F1DBE1A990BFC7EE8FFBA7", "CDwindow-9639F858A704E306EDD3A26B82005D23" ]
+[1532404052.061][INFO]: COMMAND SwitchToWindow {
+   "name": "CDwindow-3A3D5C8381F1DBE1A990BFC7EE8FFBA7"
+}
+[1532404052.080][INFO]: RESPONSE SwitchToWindow
+[1532404052.103][INFO]: COMMAND SwitchToWindow {
+   "name": "CDwindow-9639F858A704E306EDD3A26B82005D23"
+}
+[1532404052.204][INFO]: RESPONSE SwitchToWindow
+[1532404052.213][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "text"
+}
+[1532404052.214][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1532404053.230][INFO]: Waiting for pending navigations...
+[1532404053.244][INFO]: Done waiting for pending navigations. Status: ok
+[1532404053.262][INFO]: Waiting for pending navigations...
+[1532404053.263][INFO]: Done waiting for pending navigations. Status: ok
+[1532404053.263][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.2936447769370709-1"
+}
+[1532404053.268][INFO]: COMMAND TypeElement {
+   "id": "0.2936447769370709-1",
+   "value": [ "" ]
+}
+[1532404053.268][INFO]: Waiting for pending navigations...
+[1532404053.269][INFO]: Done waiting for pending navigations. Status: ok
+[1532404053.314][INFO]: Waiting for pending navigations...
+[1532404053.314][INFO]: Done waiting for pending navigations. Status: ok
+[1532404053.315][INFO]: RESPONSE TypeElement
+[1532404053.318][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "password"
+}
+[1532404053.318][INFO]: Waiting for pending navigations...
+[1532404053.319][INFO]: Done waiting for pending navigations. Status: ok
+[1532404053.335][INFO]: Waiting for pending navigations...
+[1532404053.344][INFO]: Done waiting for pending navigations. Status: ok
+[1532404053.344][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.2936447769370709-2"
+}
+[1532404053.350][INFO]: COMMAND TypeElement {
+   "id": "0.2936447769370709-2",
+   "value": [ "" ]
+}
+[1532404053.350][INFO]: Waiting for pending navigations...
+[1532404053.351][INFO]: Done waiting for pending navigations. Status: ok
+[1532404053.390][INFO]: Waiting for pending navigations...
+[1532404053.393][INFO]: Done waiting for pending navigations. Status: ok
+[1532404053.393][INFO]: RESPONSE TypeElement
+[1532404053.400][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login-button"
+}
+[1532404053.400][INFO]: Waiting for pending navigations...
+[1532404053.401][INFO]: Done waiting for pending navigations. Status: ok
+[1532404053.416][INFO]: Waiting for pending navigations...
+[1532404053.418][INFO]: Done waiting for pending navigations. Status: ok
+[1532404053.418][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.2936447769370709-3"
+}
+[1532404053.424][INFO]: COMMAND ClickElement {
+   "id": "0.2936447769370709-3"
+}
+[1532404053.424][INFO]: Waiting for pending navigations...
+[1532404053.426][INFO]: Done waiting for pending navigations. Status: ok
+[1532404053.482][INFO]: Waiting for pending navigations...
+[1532404053.482][INFO]: Done waiting for pending navigations. Status: unexpected alert open
+[1532404053.482][INFO]: RESPONSE ClickElement
+[1532404053.489][INFO]: COMMAND GetAlertMessage {
+
+}
+[1532404053.489][INFO]: Waiting for pending navigations...
+[1532404053.489][INFO]: Done waiting for pending navigations. Status: unexpected alert open
+[1532404053.489][INFO]: RESPONSE GetAlertMessage "validation failed"
+[1532404053.493][INFO]: COMMAND GetAlertMessage {
+
+}
+[1532404053.493][INFO]: Waiting for pending navigations...
+[1532404053.493][INFO]: Done waiting for pending navigations. Status: unexpected alert open
+[1532404053.493][INFO]: RESPONSE GetAlertMessage "validation failed"
+[1532404053.495][INFO]: COMMAND GetAlertMessage {
+
+}
+[1532404053.495][INFO]: Waiting for pending navigations...
+[1532404053.495][INFO]: Done waiting for pending navigations. Status: unexpected alert open
+[1532404053.496][INFO]: RESPONSE GetAlertMessage "validation failed"
+[1532404053.498][INFO]: COMMAND GetAlertMessage {
+
+}
+[1532404053.498][INFO]: Waiting for pending navigations...
+[1532404053.498][INFO]: Done waiting for pending navigations. Status: unexpected alert open
+[1532404053.498][INFO]: RESPONSE GetAlertMessage "validation failed"
+[1532404053.503][INFO]: COMMAND AcceptAlert {
+
+}
+[1532404053.503][INFO]: Waiting for pending navigations...
+[1532404053.503][INFO]: Done waiting for pending navigations. Status: unexpected alert open
+[1532404053.511][INFO]: RESPONSE AcceptAlert
+[1532404053.517][INFO]: COMMAND SwitchToFrame {
+   "id": null
+}
+[1532404053.517][INFO]: Waiting for pending navigations...
+[1532404053.951][INFO]: Done waiting for pending navigations. Status: ok
+[1532404053.951][INFO]: Waiting for pending navigations...
+[1532404053.951][INFO]: Done waiting for pending navigations. Status: ok
+[1532404053.951][INFO]: RESPONSE SwitchToFrame
+[1532404054.638][INFO]: COMMAND DeleteAllCookies {
+
+}
+[1532404054.638][INFO]: Waiting for pending navigations...
+[1532404054.641][INFO]: Done waiting for pending navigations. Status: ok
+[1532404054.647][INFO]: Waiting for pending navigations...
+[1532404054.648][INFO]: Done waiting for pending navigations. Status: ok
+[1532404054.648][INFO]: RESPONSE DeleteAllCookies
+[1532404054.652][INFO]: COMMAND CloseWindow {
+
+}
+[1532404054.675][INFO]: RESPONSE CloseWindow
+[1532404054.681][INFO]: COMMAND Quit {
+
+}
+[1532404054.775][INFO]: RESPONSE Quit
