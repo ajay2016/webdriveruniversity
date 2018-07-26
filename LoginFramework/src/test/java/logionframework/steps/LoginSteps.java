@@ -24,6 +24,7 @@ public class LoginSteps {
 	String browser = "Chrome";
 	
 	@Before
+	//browser set up
 	public void setup() {
 		if (browser.equals("Mozilla")) {
 			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "null");
